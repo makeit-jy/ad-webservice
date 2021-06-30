@@ -10,4 +10,22 @@ public class IndexController {
     public String index() {
         return "index";
     }
+
+    @GetMapping("/board")
+    public String board() {
+        return "board";
+    }
+
+    @GetMapping("/read")
+    public String read() {
+        return "read";
+    }
+
+    @GetMapping("/write")
+    public String write() {
+        return "write";
+    }
+
+
+
 }
